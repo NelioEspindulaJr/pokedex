@@ -50,11 +50,11 @@ function createCards(id) {
     let pokemon_desc = document.createElement('p');
     pokemon_desc.classList.add("card-text");
     pokemon_desc.setAttribute('id', "desc" + id);
-    
-    let div_button_more = document.createElement('div');
-    div_button_more.classList.add('container-btn-plus')
-    let button_more = document.createElement('button');
-    button_more.classList.add('btn-plus','fa','fa-plus');
+
+    // let div_button_more = document.createElement('div');
+    // div_button_more.classList.add('container-btn-plus')
+    // let button_more = document.createElement('button');
+    // button_more.classList.add('btn-plus','fa','fa-plus');
 
     //APPENDING
     let element = document.getElementById("pokemon-creation");
@@ -65,8 +65,8 @@ function createCards(id) {
     card_body.appendChild(type_logo);
     card_body.appendChild(pokemon_pic);
     card_body.appendChild(pokemon_desc);
-    card_body.appendChild(div_button_more);
-    div_button_more.appendChild(button_more);
+    // card_body.appendChild(div_button_more);
+    // div_button_more.appendChild(button_more);
 
 
     async function init(id) {
