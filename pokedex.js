@@ -3,20 +3,17 @@ function upperCaseString(str) {
 
     // converting first letter to uppercase
     const capitalized = str.charAt(0).toUpperCase() + str.slice(1);
-
     return capitalized;
 }
 
 function removeArrowFromString(str) {
     const newString = str.replace("", " ");
-
     return newString;
 }
 
 function generator() {
     for (let id = 1; id <= 151; id++) {
         createCards(id);
-
     }
 }
 
